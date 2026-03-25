@@ -16,7 +16,7 @@ Project ini merupakan implementasi form sederhana berbasis web menggunakan PHP d
 ## Cara Menjalankan
 1. Jalankan Apache melalui XAMPP
 2. Simpan folder project di `htdocs`
-3. Akses melalui browser: http://localhost/form-sederhana/index.php
+3. Akses melalui browser: http://localhost/formsederhanapbo/index.php
 
 ## Tujuan
 Project ini dibuat untuk memahami dasar pembuatan form, alur pengolahan data, serta penerapan konsep OOP dalam PHP.
