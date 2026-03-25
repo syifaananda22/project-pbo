@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #eaf2fb, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CONTAINER UTAMA */
+.container {
+    background: white;
+    padding: 30px 25px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* JUDUL */
+h2 {
+    margin-bottom: 20px;
+    color: #4a7bd0;
+}
+
+/* INPUT */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* EFFECT FOCUS */
+input:focus, textarea:focus {
+    border-color: #4a7bd0;
+    box-shadow: 0 0 5px rgba(74,123,208,0.3);
+}
+
+/* BUTTON */
+button {
+    margin-top: 10px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #4a7bd0, #6aa9ff);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER BUTTON */
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(74,123,208,0.3);
+}
+
+/* HASIL OUTPUT */
+.result {
+    margin-top: 20px;
+    background: #f0f6ff;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.result p {
+    margin: 5px 0;
+}
